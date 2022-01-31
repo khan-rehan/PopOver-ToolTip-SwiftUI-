@@ -2,7 +2,7 @@
 //  popOverPage.swift
 //  random
 //
-//  Created by App Dev Team on 30/01/22.
+//  Created by Rehan Khan on 30/01/22.
 //
 
 import SwiftUI
@@ -38,6 +38,7 @@ struct popOverPage: View {
                 }
             }
         }
+        //How  to use it    
         .toolBarPopover(show: $show, placement: .trailing){
             //Popover view (You can add any view of your own)
             DatePicker("", selection: .constant(Date()))
